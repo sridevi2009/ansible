@@ -1,5 +1,6 @@
+
 - name: variables from play level
-  hosts:localhost
+  hosts: localhost
   vars:
     Course: "Devops"
     Trainer: "sivakumar"
