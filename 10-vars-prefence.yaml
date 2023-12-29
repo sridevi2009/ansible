@@ -1,4 +1,3 @@
-
 - name: variables from play level
   hosts: localhost
   vars_files:
@@ -15,8 +14,8 @@
    wishes: "morning from play"
   tasks:
   - name: check variables
-    vars:
-     person: "siva from task"
-     wishes: "morning from task"
+    #vars:
+     #person: "siva from task"
+     #wishes: "morning from task"
     ansible.builtin.debug:
      msg: "Hello {{person}}, Good {{wishes}}" 
