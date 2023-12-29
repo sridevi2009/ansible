@@ -16,8 +16,5 @@
 [roboshop:children]
 web
 cart
-payment
-user
 catalogue
-payment
-shipping
+
